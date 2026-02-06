@@ -1,0 +1,17 @@
+Package: rtralumnaesurvey
+Type: Package
+Title: Runs statistics and creates tables for Room to Read's Alumnae Datasets
+Version: 0.1.0
+Authors@R: c(person("Fernanda", "Gandara", email = "Fernanda.gandara@roomtoread.org",role = c("aut", "cre")))
+Description: Room to Read collects data from Alumnae on a yearly basis. This package is designed to simplify the analysis of Alumnae Survey data (Room to Read).
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  data.table (>= 1.9.4),
+  dplyr
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
